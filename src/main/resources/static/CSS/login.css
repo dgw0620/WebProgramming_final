@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 10px;
+}
+
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.board_wrap {
+  width: 1000px;
+  margin: 100px auto;
+}
+
+.board_title {
+  margin-bottom: 30px;
+}
+
+.board_title strong {
+    font-size: 3rem;
+}
+
+.board_title p {
+  margin-top: 5px;
+  font-size: 1.4rem;
+}
+
+.bt_wrap {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 0px;
+}
+
+.bt_wrap a, #submit {
+  display: inline-block;
+  min-width: 80px;
+  margin-left: 10px;
+  padding: 10px;
+  border: 1px solid #000;
+  border-radius: 2px;
+  font-size: 1.4rem;
+}
+
+.bt_wrap button.on{
+  background: #000;
+  color: #fff;
+}
+
+#submit {
+    margin-left: 0px;
+}
+
+.board_login, 
+.board_signUp {
+  display: block;
+  margin: auto;
+  margin-top: 70px;
+  width: 320px;
+  height: 170px;
+  border-top: 2px solid #000;
+  border-bottom: 2px solid #000;
+}
+
+.id_wrap dl,
+.pw_wrap dl,
+.signUp_id_wrap dl,
+.signUp_pw_wrap dl {
+  padding-left: 20px;
+}
+
+.id_wrap dt,
+.id_wrap dd,
+.pw_wrap dt,
+.pw_wrap dd,
+.signUp_id_wrap dt,
+.signUp_id_wrap dd,
+.signUp_pw_wrap dt,
+.signUp_pw_wrap dd {
+  display: inline-block;
+  padding: 10px;
+}
+
+.id_wrap dt,
+.pw_wrap dt, 
+.signUp_id_wrap dt,
+.signUp_pw_wrap dt {
+  font-size: 15px;
+}
+
+.id_wrap dl {
+  margin-top: 40px;
+}
+
+.id_wrap dd,
+.signUp_id_wrap dd {
+  padding-left: 18px;
+}
+
+.board_signUp_title{
+  font-size: 15px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.signUp_id_wrap dl {
+  margin-top: 20px;
+}
+  

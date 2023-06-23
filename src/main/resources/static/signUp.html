@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="icon" href="images/favicon.png">
+    <link rel="stylesheet" href="CSS/login.css">
+	<title>Today's Diary - SignUp</title>
+</head>
+<body>
+	<div class="board_wrap">
+        <div class="board_title">
+            <strong>Today's Diary</strong>
+            <p>Create your own diary!!</p>
+        </div>
+        <div class="board_signUp_wrap">
+            <div class="board_signUp">
+                <div class="board_signUp_title">
+                    Please write ID, PW
+                </div>
+                <div class="signUp_id_wrap">
+                    <dl>
+                        <dt>ID :</dt>
+                        <dd><input type="text" id="UserID" name="id"></dd>
+                    </dl>
+                </div>
+                <div class="signUp_pw_wrap">
+                    <dl>
+                        <dt>PW :</dt>
+                        <dd><input type="password" id="UserPW" name="pw"></dd>
+                    </dl>
+                </div>
+            </div>
+            <div class="bt_wrap">
+                <button id="submit" class="on" onclick="signUp()">Register</button>
+                <a href="login.html">cancel</a>
+            </div>
+        </div>
+	</div>
+    <script src="JS/signUp.js"></script>
+</body>
+</html>

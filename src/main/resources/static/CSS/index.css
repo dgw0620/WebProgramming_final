@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 70%;
+    margin: 0 auto;
+}
+
+nav {
+    margin: 20px;
+}
+
+#title {
+    display: inline;
+}
+
+#login, #logout {
+    float: right;
+}
+
+.fc-col-header-cell-cushion, .fc-daygrid-day-number {
+    color: black;
+    text-decoration: none;
+}
+
+.color_custom {
+    display: flex;
+    justify-content: center;
+}
+
+input[type="color"] {
+    margin-left: 10px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="color"]::-webkit-color-swatch {
+    border-radius: 5px;
+    border: none;
+}
+
+input[type="color"]::-moz-color-swatch {
+    border-radius: 5px;
+    border: none;
+}
+
+.fc-button-primary {
+    background-color: skyblue !important;
+    border-color: skyblue !important;
+}
+
+.fc-button-active {
+    background-color: dodgerblue !important;
+}
